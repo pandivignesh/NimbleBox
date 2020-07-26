@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/NimbleBox/static/css/main.3d9a5e0f.chunk.css",
+    "main.js": "/NimbleBox/static/js/main.9bf30fb7.chunk.js",
+    "main.js.map": "/NimbleBox/static/js/main.9bf30fb7.chunk.js.map",
+    "runtime-main.js": "/NimbleBox/static/js/runtime-main.9282ab86.js",
+    "runtime-main.js.map": "/NimbleBox/static/js/runtime-main.9282ab86.js.map",
+    "static/js/2.2ebd7e81.chunk.js": "/NimbleBox/static/js/2.2ebd7e81.chunk.js",
+    "static/js/2.2ebd7e81.chunk.js.map": "/NimbleBox/static/js/2.2ebd7e81.chunk.js.map",
+    "static/js/3.ae0d2c86.chunk.js": "/NimbleBox/static/js/3.ae0d2c86.chunk.js",
+    "static/js/3.ae0d2c86.chunk.js.map": "/NimbleBox/static/js/3.ae0d2c86.chunk.js.map",
+    "static/js/4.e29946b3.chunk.js": "/NimbleBox/static/js/4.e29946b3.chunk.js",
+    "static/js/4.e29946b3.chunk.js.map": "/NimbleBox/static/js/4.e29946b3.chunk.js.map",
+    "static/js/5.273cda2b.chunk.js": "/NimbleBox/static/js/5.273cda2b.chunk.js",
+    "static/js/5.273cda2b.chunk.js.map": "/NimbleBox/static/js/5.273cda2b.chunk.js.map",
+    "static/js/6.1ace7400.chunk.js": "/NimbleBox/static/js/6.1ace7400.chunk.js",
+    "static/js/6.1ace7400.chunk.js.map": "/NimbleBox/static/js/6.1ace7400.chunk.js.map",
+    "static/js/7.3282f7e3.chunk.js": "/NimbleBox/static/js/7.3282f7e3.chunk.js",
+    "static/js/7.3282f7e3.chunk.js.map": "/NimbleBox/static/js/7.3282f7e3.chunk.js.map",
+    "index.html": "/NimbleBox/index.html",
+    "precache-manifest.0b2d90165761c4b19952e494ebbc050b.js": "/NimbleBox/precache-manifest.0b2d90165761c4b19952e494ebbc050b.js",
+    "service-worker.js": "/NimbleBox/service-worker.js",
+    "static/css/main.3d9a5e0f.chunk.css.map": "/NimbleBox/static/css/main.3d9a5e0f.chunk.css.map",
+    "static/js/2.2ebd7e81.chunk.js.LICENSE.txt": "/NimbleBox/static/js/2.2ebd7e81.chunk.js.LICENSE.txt",
+    "static/js/4.e29946b3.chunk.js.LICENSE.txt": "/NimbleBox/static/js/4.e29946b3.chunk.js.LICENSE.txt",
+    "static/media/dls-icon-cancel-circle-filled.svg": "/NimbleBox/static/media/dls-icon-cancel-circle-filled.2ad7bf03.svg",
+    "static/media/dls-icon-success-filled.svg": "/NimbleBox/static/media/dls-icon-success-filled.4f8b1bf6.svg",
+    "static/media/font-awesome.css": "/NimbleBox/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/loader.gif": "/NimbleBox/static/media/loader.83dde36c.gif",
+    "static/media/logo.png": "/NimbleBox/static/media/logo.dc61d26c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9282ab86.js",
+    "static/js/2.2ebd7e81.chunk.js",
+    "static/css/main.3d9a5e0f.chunk.css",
+    "static/js/main.9bf30fb7.chunk.js"
+  ]
+}
