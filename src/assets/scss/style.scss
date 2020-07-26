@@ -1,0 +1,276 @@
+/*  ---TABLE OF CONTENTS---
+  - Color Variables
+  - Basic CSS
+  - Typography
+  - Buttons
+  - Form Components
+  - Pages
+  ---TABLE OF CONTENTS---  */
+
+//Importing Font Family
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+//Color Variables
+$primary-color: #3f51b5;
+$white-color: #ffffff;
+
+//  Basic CSS
+body {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 11px !important;
+  font-weight: normal !important;
+  line-height: 12px;
+  background: $white-color !important;
+}
+.p-0 {
+  padding: 0px;
+}
+.m-0 {
+  margin: 0px;
+}
+.w-100 {
+  width: 100px !important;
+}
+.w-150 {
+  width: 150px !important;
+}
+.h-100vh {
+  height: 100vh;
+}
+.loader {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
+}
+// -Typography
+h1 {
+  font-size: 46px !important;
+  line-height: 56px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-weight: normal;
+}
+h2 {
+  font-size: 26px !important;
+  line-height: 32px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-weight: normal;
+}
+h3 {
+  font-size: 20px !important;
+  line-height: 24px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-weight: normal;
+}
+h4 {
+  font-size: 18px !important;
+  line-height: 24px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-weight: normal;
+}
+h5 {
+  font-size: 14px !important;
+  line-height: 20px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-weight: normal;
+}
+h6 {
+  font-size: 12px !important;
+  line-height: 20px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-weight: normal;
+}
+
+//- Buttons
+.btn {
+  width: 100%;
+  padding: 7px 0px;
+  color: $white-color;
+  background-color: $primary-color;
+  font-family: "Roboto", sans-serif !important;
+  margin-bottom: 0;
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  border-radius: 4px !important;
+  border: 1px solid transparent;
+  text-transform: inherit;
+  &:hover {
+    color: $white-color;
+    background-color: #122699;
+  }
+  &:focus {
+    outline: 0;
+    color: $white-color;
+  }
+  &.buy-btn {
+    border-radius: 0px !important;
+    padding: 11px 16px;
+    .fa {
+      font-size: 15px;
+      padding-right: 10px;
+    }
+  }
+}
+
+// - Form Components
+
+.form-control {
+  height: 45px !important;
+  border-radius: 2px !important;
+  box-shadow: none !important;
+  font-size: 11px !important;
+  border-color: $primary-color !important;
+  font-family: "Roboto", sans-serif !important;
+}
+
+//  Pages
+//Login
+.login-page-container {
+  position: absolute;
+  width: 350px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  .login-section {
+    background: #fff;
+    box-shadow: 0 10px 45px rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    overflow: hidden;
+    padding: 20px;
+    .section-footer {
+      display: flex;
+      flex-direction: row;
+      align-items: baseline;
+      justify-content: space-between;
+      p {
+        color: $primary-color;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+//Dashboard
+.dashboard-page {
+  .header {
+    padding: 0px;
+    min-height: auto;
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+      0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+    background-color: #ffffff;
+    .user-profile-name {
+      margin-top: 13px;
+      span {
+        position: relative;
+        color: #222;
+        background: #fafafa;
+        border-radius: 20px;
+        border: 1px solid #6c757d;
+        padding: 8px 16px;
+        font-size: 14px;
+        cursor: pointer;
+        .fa {
+          color: rgb(251, 140, 0);
+        }
+        &:hover {
+          .sub-menu {
+            display: block;
+          }
+        }
+        .sub-menu {
+          display: none;
+          width: 100%;
+          background: #fff;
+          position: absolute;
+          top: 38px;
+          right: 0;
+          z-index: 9;
+          box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+            0px 4px 5px 0px rgba(0, 0, 0, 0.14),
+            0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+          ul {
+            padding: 0px;
+            margin: 0px;
+
+            li {
+              list-style-type: none;
+              padding: 10px;
+              text-align: left;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+  .page-body {
+    .section-wrapper {
+      padding-top: 100px;
+      padding-left: 10%;
+      .project-section {
+        width: 200px;
+        box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+          0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+          0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+        border-radius: 4px;
+        text-align: center;
+        .box {
+          padding: 10px 24px 5px 24px;
+          .fa-file-text-o {
+            padding: 33px;
+          }
+          &:hover {
+            cursor: pointer;
+            .fa-file-text-o {
+              color: #4caf4f;
+            }
+          }
+        }
+      }
+    }
+    .twitter-widget {
+      float: right;
+      flex-grow: 1;
+      box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+        0px 5px 8px 0px rgba(0, 0, 0, 0.14),
+        0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+      margin-top: 5vh;
+    }
+  }
+  .footer {
+    width: 100vw;
+    bottom: 0px;
+    position: fixed;
+    background: #f1f1f1;
+    padding: 10px 0px 10px 0px;
+    .navbar-nav {
+      flex-direction: row !important;
+      .nav-item {
+        cursor: pointer;
+        margin-left: 2rem;
+        .footer-text {
+          margin-bottom: 0px;
+        }
+      }
+    }
+    .footer-company {
+      margin-right: 2rem;
+      h5 {
+        margin-bottom: 0px;
+      }
+    }
+  }
+}
